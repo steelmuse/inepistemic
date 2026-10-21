@@ -1,0 +1,397 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Builders — Reader Guide"><meta name="theme-color" content="#eee9dc"><link rel="icon" type="image/svg+xml" sizes="any" href="/assets/logo-emblem.svg"><title>inepistemic | Reader Guide: Builders</title><link rel="stylesheet" href="/_astro/BaseLayout.D_qArWSA.css"></head><body class="surface-paper variant-paper"><a class="skip-link" href="#main">Skip to content</a><header class="site-header"><a class="wordmark" href="/" aria-label="Inepistemic home"><img src="/assets/inepistemic_wordmark.svg" alt="" width="1800" height="600"></a><nav class="primary-nav desktop-primary-nav" aria-label="Main navigation"><a href="/book/">Book</a><a href="/explore/" aria-current="page">Explore</a><a href="/methodology/">Methodology</a><a href="/inventions/">Inventions</a><a href="/insights/">Insights</a><a href="https://steelmuse.com#contact">Contact Us</a><button class="nav-search" type="button" data-open-search aria-haspopup="dialog" aria-label="Search" title="Search (⌘K / Ctrl+K)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7"></circle><path d="m16 16 5 5"></path></svg></button></nav><details class="primary-nav-disclosure"><summary aria-label="Toggle navigation menu" aria-controls="primary-navigation" aria-expanded="false"><span class="menu-icon" aria-hidden="true"><i></i><i></i><i></i></span></summary><nav class="primary-nav mobile-primary-nav" id="primary-navigation" aria-label="Main navigation"><a href="/book/">Book</a><a href="/explore/" aria-current="page">Explore</a><a href="/methodology/">Methodology</a><a href="/inventions/">Inventions</a><a href="/insights/">Insights</a><a href="https://steelmuse.com#contact">Contact Us</a><button class="nav-search" type="button" data-open-search aria-haspopup="dialog" aria-label="Search" title="Search (⌘K / Ctrl+K)"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7"></circle><path d="m16 16 5 5"></path></svg></button></nav></details></header><main id="main" class="reader-page resource-page"><nav class="reader-utility"><a href="/explore/guides/">← Reader Guides</a></nav><article><header class="chapter-heading"><p class="eyebrow">Explore · Reader Guide</p><h1>Builders</h1></header><div class="prose"><p>This book is not primarily a book about design, software architecture, organizations, institutions, products, or public systems.</p>
+<p>But if you build any of those things, it repeatedly asks a question that belongs directly to your work:</p>
+<blockquote>
+<p><strong>What happens when the thing you build becomes part of somebody else's epistemic environment?</strong></p>
+</blockquote>
+<p>A tool does more than perform a function. An interface does more than display information. A policy does more than constrain action. An organization does more than coordinate people. A model does more than compress reality. Once another person encounters what you have built, it can change which problems become visible, which alternatives seem available, which criticisms can be expressed, which actions are possible, and what can happen next.</p>
+<p>That makes <em>Inepistemic</em> a book about building in a broader sense than construction or implementation.</p>
+<p>You may build software, products, companies, institutions, policies, procedures, standards, models, interfaces, machines, or methods. In every case, you are creating objective knowledge that can later enter someone else's problem situation. The book asks what follows when the people interacting with what you build are not fixed users with enumerable requirements, but knowledge-creating persons whose future problems and explanations cannot be fully specified in advance.</p>
+<p>The builder's question is also:</p>
+<blockquote>
+<p>What does the thing make easier to see, harder to see, easier to criticize, harder to change, and possible to do next?</p>
+</blockquote>
+<p>That is the route through the manuscript.</p>
+<h2 id="where-the-book-begins-the-artifact-returns">Where the book begins: the artifact returns</h2>
+<p>Start with <a href="/book/00-universality/">00 - Universality</a>.</p>
+<p>The opening chapter introduces several concepts that later become architectural: objective knowledge, physical instantiation, abstraction, compression, computation, technological knowledge, recursion, ancestry, derivation, and explanatory creativity.</p>
+<p>The important move for builders is recursive.</p>
+<p>Knowledge can leave the person who created it and become embodied in an artifact. A written procedure can be followed by someone else. A design can be built. Software can execute a transformation. A notation system can make previously difficult calculations practical. A telescope can change which observations become available.</p>
+<p>The artifact then returns as part of the environment in which later knowledge is created.</p>
+<p>That means the causal history does not stop when the build ships.</p>
+<p>A tool changes what its user can do. What the user can do changes which problems can be attempted. Those attempts produce criticism, new knowledge, and sometimes new tools. The output of one epistemic process becomes part of the conditions for another.</p>
+<p>The chapter calls this structure <strong>recursion</strong>.</p>
+<p>For a builder, the first question is therefore:</p>
+<blockquote>
+<p>Once this artifact exists, what kinds of later knowledge creation can it participate in?</p>
+</blockquote>
+<p>This is broader than feature utility. A feature can save time without changing the problem space. Another can reveal a hidden dependency, create a new observable, preserve a failed attempt, or make a previously inaccessible problem tractable. The book is especially interested in the second class of effects.</p>
+<h2 id="the-person-on-the-other-side-of-the-interface-is-not-your-representation-of-them">The person on the other side of the interface is not your representation of them</h2>
+<p>Read <a href="/book/01-genetics/">01 - Genetics</a>, <a href="/book/02-populations/">02 - Populations</a>, and <a href="/book/03-societies/">03 - Societies</a> as a warning against a common architectural substitution.</p>
+<p>Builders necessarily represent people. You may call them users, customers, employees, patients, students, citizens, operators, administrators, creators, reviewers, or stakeholders. You may represent them through personas, segments, scores, roles, permissions, risk classes, behavioral histories, organizational charts, requirements, or statistical models.</p>
+<p>Those representations can contain real and useful knowledge.</p>
+<p>The manuscript's criticism begins only when the representation is promoted into an explanation of the person represented.</p>
+<p>A population regularity is not automatically an individual causal explanation. A classification can summarize recurring observations without containing the singular history that produced them. A role can identify what a person is authorized to do without explaining what problem that person is actually trying to solve. A trait, score, segment, or risk class can stabilize an interface while omitting the causal organization of the person who encounters it.</p>
+<p>The builder's version of the problem is straightforward:</p>
+<blockquote>
+<p><strong>The system must operate on a representation of the person, but the representation must not silently become the ontology of the person.</strong></p>
+</blockquote>
+<p>That distinction matters because systems act back on the people they represent.</p>
+<p>A score can affect eligibility. A role can constrain action. A recommendation can redirect attention. A classification can determine what options appear. A workflow can define what counts as an admissible next move. Once embodied in architecture, a compressed representation can become causally stronger than the evidence that originally produced it.</p>
+<p>The relevant question is not whether representation can be avoided. It cannot. The question is:</p>
+<blockquote>
+<p>What does this representation preserve, what does it omit, and what authority does the architecture give it over what happens next?</p>
+</blockquote>
+<h2 id="solitude-coordination-without-a-shared-mind">Solitude: coordination without a shared mind</h2>
+<p>Read <a href="/book/04-solitude/">04 - Solitude</a>.</p>
+<p>Many things that builders create exist to coordinate people. Organizations, workflows, standards, software systems, forms, protocols, and institutions all allow people with different knowledge to participate in common action.</p>
+<p>The chapter's constraint is that coordination does not require a collective mind.</p>
+<p>People do not need identical internal models to use the same interface. They can reconstruct the same objective structure differently and still coordinate sufficiently to act together. An institution can behave as a functional whole without becoming a superordinate knower. A company can preserve procedures that no single person fully understands. A government can contain records that no decision-maker has personally reconstructed. A software system can route objective knowledge without possessing the subjective standpoint of the people who use it.</p>
+<p>This matters for architecture because it moves the design problem away from imagined mental convergence.</p>
+<p>You do not need everyone to understand the system in the same way. You need enough objective structure for the necessary coordination to occur.</p>
+<p>But that creates a second problem:</p>
+<blockquote>
+<p>When does the coordination structure become so strong that it begins substituting its compressed model for the people coordinating through it?</p>
+</blockquote>
+<p>That question returns later in <a href="/book/10-coordination/">10 - Coordination</a> and <a href="/book/22-interfaces/">22 - Interfaces</a>.</p>
+<h2 id="openness-the-user-is-still-becoming">Openness: the user is still becoming</h2>
+<p>Continue to <a href="/book/05-openness/">05 - Openness</a>.</p>
+<p>Builders often need to predict. A system has to anticipate demand. A product has to assume likely workflows. An institution has to plan capacity. A policy has to estimate responses. A safety system has to reason about possible failures. A manager has to allocate resources before everyone knows what will happen.</p>
+<p>The manuscript does not reject prediction. It asks what kind of object is being predicted.</p>
+<p>A person can acquire knowledge that does not yet exist. A future problem can become visible that is not visible now. A criticism can reorganize a person's current understanding. A new distinction can change what the person even takes the problem to be.</p>
+<p>That means a present model of a person cannot also contain the genuinely new explanations that person may later create.</p>
+<p>For builders, the consequence is not that systems must avoid planning. It is that <strong>prediction should not silently become possession of the future problem space</strong>.</p>
+<p>A system can be correct about what someone has done, usually does, or is likely to do under current conditions and still be wrong to treat that description as the boundary of what the person can become.</p>
+<p>This matters whenever architecture adapts around predicted behavior. Personalization, process optimization, organizational roles, automated routing, and recommendation can all become self-stabilizing if the system repeatedly returns the same model to the person being modeled.</p>
+<p>The builder's question becomes:</p>
+<blockquote>
+<p>Does the architecture leave room for the person to invalidate the representation through knowledge they have not yet created?</p>
+</blockquote>
+<h2 id="abstraction-your-greatest-tool-and-your-recurring-danger">Abstraction: your greatest tool and your recurring danger</h2>
+<p>Read <a href="/book/06-abstractions/">06 - Abstractions</a> closely.</p>
+<p>Building complex things requires abstraction. You cannot work directly with every transistor, transaction, legal clause, organizational dependency, memory state, causal pathway, or user history at once. You compress. You create layers. You hide implementation detail. You expose interfaces. You replace high-dimensional systems with models that preserve selected relations.</p>
+<p>The book treats this as indispensable.</p>
+<p>The problem is not abstraction. The problem is forgetting that abstraction is selective and compression is lossy.</p>
+<p>A useful representation preserves something and discards something else. That is why it is useful. The architectural question is therefore always two-sided:</p>
+<blockquote>
+<p>What did this abstraction preserve?</p>
+<p>What did it make disappear?</p>
+</blockquote>
+<p>For builders, this is not only an epistemological warning. It is a design constraint.</p>
+<p>An abstraction can become so successful that the hidden structure no longer appears to exist. A metric becomes the goal. A dashboard becomes the operation. A workflow state becomes the work. A category becomes the person. An API becomes the domain. A model prediction becomes the future. The map becomes the territory because the territory is no longer practically reachable except through the map.</p>
+<p>The manuscript later calls this interface problem much more explicitly in <a href="/book/22-interfaces/">22 - Interfaces</a>.</p>
+<h2 id="build-around-problems-not-only-around-represented-solutions">Build around problems, not only around represented solutions</h2>
+<p>Read <a href="/book/08-criticism/">08 - Criticism</a> and <a href="/book/09-problems/">09 - Problems</a>.</p>
+<p>Builders are often handed a problem in already-compressed form. Increase conversion. Reduce churn. Improve compliance. Lower error rate. Automate intake. Increase engagement. Reduce cost. Improve safety. Make the process faster.</p>
+<p>The manuscript asks you to notice that the governing problem is itself knowledge.</p>
+<p>A problem is not merely a blank space awaiting a solution. It arises when something does not fit, when an explanation fails, when a contradiction matters, when a possibility becomes visible, or when a prior problem is reformulated.</p>
+<p>Criticism therefore does more than reject candidate solutions. It can expose that the problem itself was badly formed.</p>
+<p>This matters for builders because a system can become extraordinarily capable while remaining inside the wrong problem.</p>
+<p>Optimization can improve the represented solution without changing the governing abstraction. A workflow can become faster while solving the wrong coordination problem. A recommendation system can become more accurate while stabilizing an impoverished category. A policy can improve compliance while making criticism of the goal harder to express.</p>
+<p>The builder's test is:</p>
+<blockquote>
+<p>Can the problem itself become a problem inside the architecture?</p>
+</blockquote>
+<p>If the answer is no, the architecture may support improvement while resisting transformation.</p>
+<p>This is one of the manuscript's most important distinctions between <strong>solution improvement</strong> and <strong>problem transformation</strong>.</p>
+<h2 id="coordination-build-the-interface-not-the-person">Coordination: build the interface, not the person</h2>
+<p>Read <a href="/book/10-coordination/">10 - Coordination</a>.</p>
+<p>The chapter asks what must actually be shared when people coordinate. Its answer is deliberately narrower than shared identity, shared worldview, shared internal state, or complete mutual understanding. People can coordinate through objective interfaces while remaining epistemically distinct.</p>
+<p>The manuscript calls the resulting structure <strong>thin coordination</strong>: coordinate what must be shared without requiring the participants' internal problem worlds to converge.</p>
+<p>For builders of organizations, products, standards, institutions, and collaborative systems, this is a particularly useful constraint.</p>
+<p>A good coordination layer may specify:</p>
+<ul>
+<li>what must be communicated;</li>
+<li>what action must be synchronized;</li>
+<li>what resource is shared;</li>
+<li>what boundary must not be crossed;</li>
+<li>what output another participant needs;</li>
+<li>what decision belongs at the interface.</li>
+</ul>
+<p>It does not automatically need to specify how every participant must understand the entire problem.</p>
+<p>That matters because coordination layers tend to expand.</p>
+<p>A shared field becomes a required ontology. A workflow becomes the only legitimate process. A role becomes an explanation of competence. A standard becomes a theory of the domain. A reporting structure becomes a model of causality. The compression that enabled coordination begins claiming more explanatory territory than the coordination problem required.</p>
+<p>The question to carry forward is:</p>
+<blockquote>
+<p>What must this system coordinate, and what can remain independently problem-generating outside the interface?</p>
+</blockquote>
+<h2 id="closure-when-a-successful-architecture-stops-being-criticizable">Closure: when a successful architecture stops being criticizable</h2>
+<p>Read <a href="/book/11-evil/">11 - Evil</a> and <a href="/book/12-justification/">12 - Justification</a> as chapters about what happens when an explanation becomes difficult to reopen.</p>
+<p>The manuscript's concern is not simply that systems contain errors. Every nontrivial system does. The deeper problem is <strong>closure</strong>: an explanation becomes insulated from criticism while retaining causal power.</p>
+<p>In an organization, the governing story may become untouchable. In a product, the metric may become axiomatic. In a policy regime, disagreement may be translated into noncompliance. In software, a representation may become so deeply embedded that downstream systems treat it as reality. In a justificatory culture, ever more reasons may accumulate around a framing without the framing itself becoming easier to criticize.</p>
+<p>This produces a builder's asymmetry.</p>
+<p>It is often easy to add support for the current architecture. Documentation, dashboards, reports, controls, validation, audit trails, and automated checks can all make the system more internally coherent.</p>
+<p>But internal coherence is not the same as corrigibility.</p>
+<p>The relevant question is:</p>
+<blockquote>
+<p>Does added structure make the governing explanation easier to criticize, or merely easier to defend and reproduce?</p>
+</blockquote>
+<p>That distinction becomes especially important in large institutions and software ecosystems where inherited architecture acquires authority simply because so much else depends on it.</p>
+<h2 id="inexplicit-knowledge-not-every-requirement-begins-as-a-sentence">Inexplicit knowledge: not every requirement begins as a sentence</h2>
+<p>Read <a href="/book/13-inexplicit/">13 - Inexplicit</a>.</p>
+<p>Builders frequently encounter knowledge that has not yet been made explicit. A user knows that something feels wrong but cannot specify the failure. An experienced operator notices an anomaly before being able to articulate the pattern. A designer has a sense that a flow will break. An engineer sees a structural weakness before producing the explanation. A team has developed practices whose useful constraints are only partly documented.</p>
+<p>The manuscript calls knowledge that is present in action, recognition, expectation, or rejection before it can be clearly stated <strong>inexplicit knowledge</strong>.</p>
+<p>This matters because many systems assume that knowledge acquisition is transcription: ask the person what they know, write it down, and implement it.</p>
+<p>The book offers a different possibility. Explicitation may itself be constructive. The first explicit account can be a new conjectural representation of what was previously available only in action or recognition.</p>
+<p>For builders, this changes the meaning of requirements discovery, user research, incident review, design critique, and expert elicitation.</p>
+<p>The relevant question is:</p>
+<blockquote>
+<p>What knowledge is appearing in what they notice, reject, attempt, avoid, or correct, and what representation would make that knowledge criticizable?</p>
+</blockquote>
+<p>The goal is not to romanticize intuition. Inexplicit knowledge can be wrong. The point is to avoid assuming that what cannot yet be stated therefore does not exist causally.</p>
+<h2 id="taking-explanations-seriously-architecture-should-let-consequences-travel">Taking explanations seriously: architecture should let consequences travel</h2>
+<p>Read <a href="/book/14-seriously/">14 - Seriously</a>.</p>
+<p>The manuscript defines taking an explanation seriously as allowing its consequences to travel beyond the context in which the explanation was first encountered. For builders, this is a useful architectural discipline.</p>
+<p>A security assumption may have consequences for usability. A coordination rule may have consequences for autonomy. A compression may have consequences for error detection. A resource allocation may alter which problems become reachable. A safety measure may reduce one failure mode while weakening the mechanisms that would reveal another.</p>
+<p>The interesting failures often occur across boundaries because architecture has been decomposed into domains while causes have not.</p>
+<p>The builder's question becomes:</p>
+<blockquote>
+<p>If this explanation is true, where else in the system must its constraints appear?</p>
+</blockquote>
+<p>This is also why the book repeatedly returns to consilience. An architecture can hide contradiction by separating teams, abstractions, documents, ownership boundaries, or institutional domains. Reality does not inherit those organizational boundaries.</p>
+<h2 id="personhood-do-not-confuse-a-system-s-model-of-capability-with-the-person-s-capability">Personhood: do not confuse a system's model of capability with the person's capability</h2>
+<p>Read <a href="/book/15-personhood/">15 - Personhood</a> and <a href="/book/16-mystery/">16 - Mystery</a>.</p>
+<p>Builders often need to assign capabilities. Permissions, roles, risk limits, proficiency levels, access tiers, qualifications, trust scores, workflow states, and responsibility matrices all exist because systems must decide who or what can do what.</p>
+<p>The manuscript asks you to separate <strong>knowledge presently possessed</strong> from <strong>capacity for knowledge creation</strong>.</p>
+<p>A person can know less in a domain without being a lesser kind of knower. A beginner can lack current competence without that deficit defining the boundary of future explanatory capacity. A present failure can be real without constituting a completed ontology of the person who failed.</p>
+<p>This is especially important in architectures that transform observations into durable permissions or restrictions.</p>
+<p>The system may need to make a present decision. But the present decision does not thereby acquire a complete explanation of the person.</p>
+<p>The architectural question is:</p>
+<blockquote>
+<p>What must be decided now, and what claims about the person's future are not required by that decision?</p>
+</blockquote>
+<p>That distinction allows judgment without pretending to explanatory completion.</p>
+<h2 id="arrows-state-machines-are-not-explanations-of-transitions">Arrows: state machines are not explanations of transitions</h2>
+<p>Read <a href="/book/17-arrows/">17 - Arrows</a>.</p>
+<p>Builders are comfortable with states. A system is pending, approved, rejected, escalated, resolved, active, inactive, compliant, blocked, healthy, degraded, or failed. A diagram shows arrows between those states. A workflow engine executes transitions. A database records them.</p>
+<p>The chapter makes the arrow itself an explanatory object.</p>
+<p>A sequence of state snapshots can show that a transition occurred without explaining why it occurred. The same is true epistemically. A problem became a solution, a solution became objectionable, a criterion changed, a new problem appeared—but naming the before and after states does not explain the transformation.</p>
+<p>This produces the distinction between <strong>state-transition legibility</strong> and genuine explanation of the transition.</p>
+<p>For builders, the problem becomes concrete whenever systems record outcomes more faithfully than reasons.</p>
+<p>A log may preserve what happened but not why this criticism mattered. A ticket history may show reassignment but not the problem transformation. Version control may preserve code states without preserving the conceptual shift that made the new architecture intelligible. An organizational process may record approval without preserving the disagreement that would later explain the decision's failure.</p>
+<p>The question becomes:</p>
+<blockquote>
+<p>Which transitions matter enough that their explanatory history should remain recoverable?</p>
+</blockquote>
+<p>The chapter also introduces <strong>forced arrows</strong>: architecture can constrain which transitions are practically available. A workflow may not merely record a process; it may make some paths possible and others impossible.</p>
+<p>That is an architectural power worth making explicit.</p>
+<h2 id="unpredictability-design-for-futures-you-cannot-enumerate">Unpredictability: design for futures you cannot enumerate</h2>
+<p>Read <a href="/book/18-unpredictability/">18 - Unpredictability</a>.</p>
+<p>The chapter extends the open-future argument into prediction and planning. Builders cannot avoid designing for unknown futures. The question is what kind of unknown is involved.</p>
+<p>Some unknowns are missing values in a known model. Others involve knowledge that has not yet been created and therefore cannot be represented simply as another hidden present variable.</p>
+<p>This matters because architectures often become brittle when they assume that the space of future possibilities has already been enumerated.</p>
+<p>A schema can admit new values while forbidding new dimensions. A workflow can allow exceptions while preserving an uncriticized goal. A product can support configuration while assuming the problem category is fixed. An institution can permit appeals while leaving the governing abstraction outside the appeal process.</p>
+<p>The builder's question is therefore stronger than extensibility:</p>
+<blockquote>
+<p>Can the architecture survive a criticism that changes what the architecture was for?</p>
+</blockquote>
+<p>Not every system needs to answer yes. Some components should be narrow and stable. The point is to know where the surrounding architecture permits problem transformation to occur.</p>
+<h2 id="values-every-system-embeds-compressed-judgments">Values: every system embeds compressed judgments</h2>
+<p>Read <a href="/book/19-values/">19 - Values</a>.</p>
+<p>Building requires evaluation. You decide what to optimize, what to prohibit, what to prioritize, what counts as failure, what gets measured, what gets hidden, what deserves friction, and what should happen automatically.</p>
+<p>Those decisions contain values whether or not they are represented explicitly as moral philosophy.</p>
+<p>The manuscript treats values as <strong>compressed explanations</strong>. A value can carry forward the result of prior reasoning without requiring that reasoning to be reconstructed every time. This is necessary. No builder can reopen every premise before every action.</p>
+<p>The danger appears when compression becomes irreversible.</p>
+<p>A value continues to govern, but the problem and explanation that originally gave it meaning can no longer be recovered or criticized. The rule remains after its ancestry has disappeared. The metric remains after the purpose has changed. The safety principle remains after the causal environment has shifted.</p>
+<p>The builder's question is:</p>
+<blockquote>
+<p>Which governing values must remain practically decompressible when they become problematic?</p>
+</blockquote>
+<p>The chapter calls the alternative <strong>reversible compression</strong>: retain the utility of the compact representation while preserving a route back to the explanatory structure it suppresses.</p>
+<h2 id="resources-architecture-changes-epistemic-reach">Resources: architecture changes epistemic reach</h2>
+<p>Read <a href="/book/20-resources/">20 - Resources</a>.</p>
+<p>Resources do not merely increase throughput. They change which problems are practically reachable. Compute, capital, time, attention, expertise, tools, communication channels, physical access, institutional permission, and technical infrastructure can expand or contract <strong>epistemic reach</strong>.</p>
+<p>But increased reach does not determine <strong>epistemic direction</strong>.</p>
+<p>Giving someone a more powerful tool can increase the space of possible inquiry without telling us which problem that person will pursue. Conversely, removing a resource can eliminate not only a known benefit but an entire future problem trajectory: an experiment never attempted, a criticism never produced, a skill never developed, a successor problem never discovered.</p>
+<p>For builders, resource allocation therefore has two effects:</p>
+<ul>
+<li>it changes what can be executed now;</li>
+<li>it changes which future knowledge-creation paths can become practical.</li>
+</ul>
+<p>This is especially relevant when a system controls access to scarce infrastructure, data, compute, expertise, publication, capital, or institutional permission.</p>
+<p>The question is:</p>
+<blockquote>
+<p>What epistemic trajectories become reachable or unreachable because this architecture allocates resources this way?</p>
+</blockquote>
+<h2 id="error-build-an-error-correction-surface-not-an-image-of-infallibility">Error: build an error-correction surface, not an image of infallibility</h2>
+<p>Read <a href="/book/21-error/">21 - Error</a>.</p>
+<p>This is one of the most directly architectural chapters in the book. It introduces the <strong>error-correction surface</strong>: the distributed conditions through which errors can become visible and removable. That surface can include people, criticism, records, alternatives, institutions, interfaces, reversibility, and time.</p>
+<p>The concept shifts attention away from the impossible requirement that any component be error-free.</p>
+<p>A reliable architecture can instead ask:</p>
+<ul>
+<li>Can errors become visible?</li>
+<li>Can somebody challenge the governing explanation?</li>
+<li>Are alternatives preserved?</li>
+<li>Are consequential actions reversible where practical?</li>
+<li>Does enough state survive to reconstruct what happened?</li>
+<li>Is there sufficient separation between transitions for criticism to become causally effective?</li>
+<li>Can knowledge move broadly without granting equally broad authority to execute irreversible actions?</li>
+</ul>
+<p>The last distinction is particularly important: <strong>epistemic access is not the same as execution authority</strong>.</p>
+<p>A system can expose information, criticism, simulation, analysis, and alternative designs widely while constraining who or what may carry out irreversible actions.</p>
+<p>This gives builders a more precise way to think about openness and safety. The two need not move together.</p>
+<p>The chapter's broader warning is symmetrical. Powerful technology can damage the error-correction surface through uncontrolled action. Overbearing control can damage the same surface by suppressing criticism, alternatives, experimentation, or the ability to discover that the governing safety explanation is wrong.</p>
+<p>The builder's problem is therefore not simply how to prevent error.</p>
+<p>It is:</p>
+<blockquote>
+<p>How does the architecture remain capable of discovering and correcting errors in the explanations by which it prevents error?</p>
+</blockquote>
+<h2 id="interfaces-when-the-map-becomes-the-operating-reality">Interfaces: when the map becomes the operating reality</h2>
+<p>Read <a href="/book/22-interfaces/">22 - Interfaces</a>.</p>
+<p>This chapter brings many earlier ideas together. Complex societies and technologies depend on compression. Nobody can reconstruct the full causal structure beneath every service, market, institution, protocol, device, or software layer they use. Interfaces make action possible under that ignorance.</p>
+<p>But the same compression that increases reach can increase dependence on the interface.</p>
+<p>The manuscript describes an <strong>abstraction double-bind</strong>: accumulated objective knowledge makes abstraction increasingly necessary while making individuals increasingly dependent on abstractions whose underlying structure they cannot reconstruct in full.</p>
+<p>For builders, this is familiar. Good architecture hides detail. The book does not object.</p>
+<p>The stronger question is whether the abstraction remains <strong>criticizable dependence</strong>.</p>
+<p>Can the hidden layer become a problem when necessary? Can the user obtain a more detailed explanation? Can anomalies surface through the abstraction? Can a representation be challenged? Can the interface admit that the current model is inadequate? Is there a path downward when the layer that normally protects the user from complexity becomes the source of failure?</p>
+<p>The problem is not opacity alone. Nobody can possess all underlying detail.</p>
+<p>The problem is <strong>closure</strong>: the architecture prevents the relevant abstraction from becoming a problem at all.</p>
+<p>The chapter therefore gives builders a compact design question:</p>
+<blockquote>
+<p>What happens when the abstraction fails the person who depends on it?</p>
+</blockquote>
+<h2 id="understanding-a-builder-does-not-need-complete-possession-of-every-layer">Understanding: a builder does not need complete possession of every layer</h2>
+<p>Read <a href="/book/23-understanding/">23 - Understanding</a>.</p>
+<p>Builders live inside abstractions created by other builders. No engineer understands every transistor beneath a cloud application. No executive understands every operational dependency in a large company. No policymaker reconstructs every causal process affected by a statute. No inventor possesses the complete ancestry of every component used in an invention.</p>
+<p>The chapter resists equating understanding with exhaustive reconstruction.</p>
+<p>Useful understanding can exist at an abstraction level if the relevant structure remains explainable, criticizable, and reconstructable when it becomes problematic.</p>
+<p>This matters because the opposite standard produces paralysis. If legitimate action required complete knowledge of every underlying layer, complex technological society would become impossible.</p>
+<p>The builder's standard is therefore not omniscience.</p>
+<p>It is more operational:</p>
+<blockquote>
+<p>Do you understand enough of the relevant explanatory structure to criticize the problem you are actually acting on, and can you descend into deeper layers when that abstraction breaks?</p>
+</blockquote>
+<p>That connects understanding directly to the error-correction surface.</p>
+<h2 id="ai-a-new-builder-s-surface">AI: a new builder's surface</h2>
+<p>Read <a href="/book/24-ai/">24 - AI</a> if generative systems are entering your building process. Of course they are.</p>
+<p>The chapter treats AI as a <strong>responsive objective surface</strong>: objective knowledge no longer merely waits to be retrieved but can be reorganized around the problem you are presently pursuing.</p>
+<p>For builders, that changes the cost of externalization.</p>
+<p>You can move from vague problem to candidate representation, from representation to criticism, from criticism to revised artifact, and from artifact to implementation much faster. Code, models, explanations, tests, interfaces, specifications, diagrams, and alternatives can become objective before you could previously have produced them unaided.</p>
+<p>That can move criticism earlier in the build.</p>
+<p>But it also makes another problem sharper: the generated surface can influence the problem before the problem has stabilized.</p>
+<p>The relevant distinction is between <strong>abstraction assistance</strong> and <strong>abstraction authority</strong>.</p>
+<p>A tool can help you navigate complexity without being granted authority to decide which abstraction should organize your understanding of that complexity.</p>
+<p>For a builder, the practical question is:</p>
+<blockquote>
+<p>Is the system helping me externalize and criticize my problem, or is its convenient representation becoming the problem I now think I had?</p>
+</blockquote>
+<h2 id="invention-components-do-not-explain-the-architecture">Invention: components do not explain the architecture</h2>
+<p>Read <a href="/book/26-invention/">26 - Invention</a> closely.</p>
+<p>This is the most direct chapter for inventors, architects, founders, designers, and engineers. The chapter distinguishes <strong>inventory</strong> from <strong>invention</strong>.</p>
+<p>Having all the components, precedents, dependencies, enabling technologies, and known methods does not entail the invention. Describing a novel artifact as recombination may identify its ancestry without explaining the new relation or abstraction under which the components became a solution.</p>
+<p>Novelty may lie in a new sequence, interface, causal organization, constraint, control structure, or relation among familiar parts. That is architectural novelty.</p>
+<p>The chapter also emphasizes externalization. A sketch, prototype, application, program, or explanation does not merely record what was already complete in the inventor's mind. Once objective, it can become a new surface for criticism. The artifact changes the problem.</p>
+<p>For builders, this creates a recursive loop:</p>
+<p><strong>problem → externalization → criticism → changed problem → changed artifact.</strong></p>
+<p>The act of building is therefore part of the epistemic process, not merely downstream execution of a finished idea.</p>
+<p>This gives a useful interpretation of prototyping:</p>
+<blockquote>
+<p>A prototype is not only an early version of the solution. It can be an instrument for creating the next problem.</p>
+</blockquote>
+<h2 id="weights-do-not-ask-what-mattered-in-the-abstract">Weights: do not ask what mattered in the abstract</h2>
+<p>Read <a href="/book/27-weights/">27 - Weights</a>.</p>
+<p>Complex builds combine many forms of knowledge: biological capacities, learned skill, objective knowledge, tools, institutions, abstractions, resources, inherited explanations, and newly created ideas.</p>
+<p>The chapter resists assigning one global weight to these heterogeneous contributions.</p>
+<p>Instead, it proposes a local question:</p>
+<blockquote>
+<p><strong>What changed because this knowledge was present?</strong></p>
+</blockquote>
+<p>For builders, that is a useful causal discipline.</p>
+<p>Rather than arguing globally about whether people, software, process, capital, data, expertise, or organizational structure mattered most, locate the problem and ask what causal work each contribution performed there.</p>
+<p>A tool may have made a search practical. A person may have changed the problem. A standard may have made coordination possible. A prior abstraction may have hidden the failure. A prototype may have created the criticism. A policy may have constrained execution. A resource may have widened reach.</p>
+<p>Different contributions can be causally indispensable without becoming commensurable on one scale.</p>
+<p>This is especially useful in human-machine and multi-team systems, where arguments about contribution can otherwise collapse into percentage attribution.</p>
+<h2 id="motion-preserve-the-history-that-makes-later-change-possible">Motion: preserve the history that makes later change possible</h2>
+<p>Read <a href="/book/28-motion/">28 - Motion</a>.</p>
+<p>The chapter's builder-relevant claim is that a knowledge-creating system should not preserve only its latest state.</p>
+<p>Earlier failed conjectures, abandoned criteria, contradictions, previous representations, and unresolved problems can remain causally useful because later criticism may make them newly relevant.</p>
+<p>The loop does not return to the same knower. The person has changed through the previous passage.</p>
+<p>For architecture, this means state persistence and epistemic persistence are not the same thing.</p>
+<p>A system can save every output and still lose the relations that explain why one state became another. A repository can preserve versions while losing rejected alternatives. A project tracker can preserve tasks while losing the problem genealogy. An organization can preserve decisions while losing the criticisms that would later explain why the decisions should be reopened.</p>
+<p>The builder's question is:</p>
+<blockquote>
+<p>What history must remain available so that future criticism can reconstruct how the present state came to exist?</p>
+</blockquote>
+<p>The answer will differ by domain. The manuscript does not prescribe one storage model. It identifies the epistemic object that can otherwise disappear.</p>
+<h2 id="authorities-every-architecture-allocates-decision-power">Authorities: every architecture allocates decision power</h2>
+<p>Read <a href="/book/29-authorities/">29 - Authorities</a>.</p>
+<p>Builders do not only create functions. They allocate authority.</p>
+<p>Someone can edit and someone can only view. Someone may override a decision. A workflow can require approval. A model can recommend while a person executes. A regulator can prohibit. A manager can assign. A platform can remove. A safety system can block. A protocol can refuse an invalid transition.</p>
+<p>The chapter treats authority as a <strong>relation and tentative solution</strong>, not as a property that automatically follows from greater knowledge, status, expertise, or institutional position.</p>
+<p>That makes authority architecturally visible.</p>
+<p>The relevant question is not whether every system can avoid authority. Many coordination problems require asymmetric decision rights.</p>
+<p>The question is:</p>
+<blockquote>
+<p>What problem is this authority relation solving, what criticism can reach it, and under what conditions can the relation be revised or removed?</p>
+</blockquote>
+<p>The chapter's <strong>removable ruler</strong> captures the general constraint: no governing explanation earns permanent sovereignty merely because it has survived criticism so far.</p>
+<p>For builders, that applies to more than people in positions of power.</p>
+<p>A metric can rule. A workflow can rule. A model can rule. A standard can rule. A legacy architectural assumption can rule. A safety constraint can rule. A default can rule.</p>
+<p>The important property is not whether there is a governing structure. It is whether the governing structure can itself become an object of criticism.</p>
+<h2 id="the-final-chapter-the-book-is-itself-a-build">The final chapter: the book is itself a build</h2>
+<p>Finish with <a href="/book/30-inepistemic/">30 - Inepistemic</a>.</p>
+<p>The chapter reveals the project-level architecture more explicitly.</p>
+<p>Epistemology precedes an epistemic harness. The harness represents selected relations among problems, tentative solutions, criticism, and successor problems. The recursive object is not primarily the software. It is the evolving inquiry conducted through it.</p>
+<p>That makes the book itself a builder's case.</p>
+<p>The architecture is useful not because implementation validates the epistemology. It is useful because making selected epistemic relations explicit enough to operate exposes ambiguities, missing distinctions, contradictions, unusable abstractions, and successor problems.</p>
+<p>That is a recurring builder's pattern:</p>
+<p><strong>make a commitment explicit → instantiate it → let reality act on it → recover the criticism → rebuild.</strong></p>
+<p>The artifact becomes an instrument for discovering what the builder did not yet understand.</p>
+<h2 id="if-you-build-software-or-products">If you build software or products</h2>
+<p>Pay particular attention to <a href="/book/06-abstractions/">06 - Abstractions</a>, <a href="/book/13-inexplicit/">13 - Inexplicit</a>, <a href="/book/17-arrows/">17 - Arrows</a>, <a href="/book/22-interfaces/">22 - Interfaces</a>, <a href="/book/23-understanding/">23 - Understanding</a>, <a href="/book/24-ai/">24 - AI</a>, and <a href="/book/28-motion/">28 - Motion</a>.</p>
+<p>The recurring questions are:</p>
+<ul>
+<li>What does the interface preserve and erase?</li>
+<li>Does the system help the user reconstruct the underlying problem when the abstraction fails?</li>
+<li>Are you preserving state or preserving explanatory history?</li>
+<li>Can a user reject the framing rather than merely choose among supplied options?</li>
+<li>What transitions does the architecture make possible or impossible?</li>
+<li>When personalization improves fit, is it also narrowing the user's future problem space?</li>
+</ul>
+<h2 id="if-you-build-organizations">If you build organizations</h2>
+<p>Pay particular attention to <a href="/book/03-societies/">03 - Societies</a>, <a href="/book/04-solitude/">04 - Solitude</a>, <a href="/book/10-coordination/">10 - Coordination</a>, <a href="/book/11-evil/">11 - Evil</a>, <a href="/book/21-error/">21 - Error</a>, <a href="/book/22-interfaces/">22 - Interfaces</a>, and <a href="/book/29-authorities/">29 - Authorities</a>.</p>
+<p>The recurring questions are:</p>
+<ul>
+<li>What must actually be shared for coordination?</li>
+<li>Which representations of people are merely administrative interfaces, and which have been promoted into explanations of them?</li>
+<li>What happens to criticism when responsibility, hierarchy, and expertise become authority?</li>
+<li>Does the organization preserve alternatives, dissent, records, and reversibility strongly enough for errors to become visible?</li>
+<li>Is legibility being mistaken for flourishing or competence?</li>
+<li>Can the governing explanation itself become a problem?</li>
+</ul>
+<h2 id="if-you-build-institutions-policy-or-standards">If you build institutions, policy, or standards</h2>
+<p>Pay particular attention to <a href="/book/02-populations/">02 - Populations</a>, <a href="/book/03-societies/">03 - Societies</a>, <a href="/book/10-coordination/">10 - Coordination</a>, <a href="/book/19-values/">19 - Values</a>, <a href="/book/20-resources/">20 - Resources</a>, <a href="/book/21-error/">21 - Error</a>, and <a href="/book/29-authorities/">29 - Authorities</a>.</p>
+<p>The recurring questions are:</p>
+<ul>
+<li>What warrants carrying a population regularity into an individual decision?</li>
+<li>Which compression is required for administration, and what does it leave out?</li>
+<li>How does a classification become a causal input once embodied in institutional rules?</li>
+<li>What trajectories are removed when access, resources, or execution authority are restricted?</li>
+<li>Can safety be increased without suppressing the error-correction mechanisms that would reveal mistakes in the safety regime?</li>
+<li>What makes a governing rule removable when its original problem changes?</li>
+</ul>
+<h2 id="if-you-invent">If you invent</h2>
+<p>Pay particular attention to <a href="/book/08-criticism/">08 - Criticism</a>, <a href="/book/09-problems/">09 - Problems</a>, <a href="/book/16-mystery/">16 - Mystery</a>, <a href="/book/17-arrows/">17 - Arrows</a>, <a href="/book/18-unpredictability/">18 - Unpredictability</a>, <a href="/book/23-understanding/">23 - Understanding</a>, and <a href="/book/26-invention/">26 - Invention</a>.</p>
+<p>The recurring questions are:</p>
+<ul>
+<li>Which part of the invention is inventory, and which part is the new architecture?</li>
+<li>Does ancestry explain origin, or merely make origin reconstructable afterward?</li>
+<li>What criticism changed the problem rather than merely rejecting a candidate?</li>
+<li>What did externalization make visible that was unavailable before the prototype existed?</li>
+<li>Which transition remains unexplained even after the documentary history becomes complete?</li>
+</ul>
+<h2 id="the-builder-s-path-through-the-book">The builder's path through the book</h2>
+<p>The manuscript's builder-facing argument can be compressed this way:</p>
+<p><strong>You build an abstraction.</strong></p>
+<p>The abstraction makes coordinated action possible because it preserves some structure and hides the rest.</p>
+<p><strong>Someone encounters that abstraction.</strong></p>
+<p>It becomes part of their epistemic environment and changes what they can see, do, criticize, and attempt.</p>
+<p><strong>The abstraction gains causal power.</strong></p>
+<p>Its categories, defaults, permissions, interfaces, metrics, workflows, and constraints begin shaping the problem situation itself.</p>
+<p><strong>Reality eventually pushes back.</strong></p>
+<p>A user does something unexpected. A failure appears. A contradiction crosses an abstraction boundary. A criticism exposes that the governing problem was incomplete.</p>
+<p><strong>Now the architecture faces its real test.</strong></p>
+<p>Can the criticism reach the governing explanation? Can the abstraction be decompressed? Can the problem be reformulated? Can the authority relation change? Can the history be reconstructed? Can the system permit a transition its designer did not anticipate?</p>
+<p>If it can, the thing you built participates in further knowledge creation.</p>
+<p>If it cannot, its success as a coordination mechanism may also have become a form of epistemic closure.</p>
+<p>The book's recurring question for builders is therefore not whether abstraction, authority, prediction, coordination, or constraint can be eliminated. They cannot.</p>
+<p>It is whether the things we build can remain <strong>usable without becoming final, powerful without becoming epistemically sovereign, and stable without preventing the next criticism from changing the problem</strong>.</p></div></article></main><footer class="site-footer attribution-footer"><div class="site-footer__inner"><div class="site-footer__grid"><div class="attribution-block"><a class="attribution-footer__wordmark" href="/" aria-label="inepistemic home">inepistemic</a><p>A <a class="text-link" href="https://www.steelmuse.com/">Steel Muse</a> invention</p><p class="patent-status">Patents Pending</p></div><div class="site-footer__meta"><p class="site-footer__proudly">Proudly <span role="img" aria-label="Canada">🇨🇦</span></p><nav class="site-footer__legal" aria-label="Legal"><a href="https://www.steelmuse.com/privacy/">Privacy Policy</a><button class type="button" data-open-privacy-choices hidden data-astro-cid-orptomxg>Privacy Choices</button><a href="https://steelmuse.com/terms/">Terms &amp; Conditions</a><a href="/rights/">Rights &amp; Permissions</a></nav><p class="site-footer__copyright">© Steel Muse Inc 2026</p></div></div></div></footer><section class="analytics-banner" data-analytics-consent data-site="inepistemic" data-consent-key="inepistemic:analytics-consent" data-measurement-id aria-labelledby="analytics-title" hidden data-astro-cid-4vpb33up><div data-astro-cid-4vpb33up><h2 id="analytics-title" data-astro-cid-4vpb33up>Your Privacy Choices</h2><p data-astro-cid-4vpb33up>Steel Muse Inc. uses Google Analytics to help us understand how this site is used. The analytics use cookies and shares usage and device information with Google. Analytics stays off unless you accept. You can change your choice at any time.</p><a href="https://www.steelmuse.com/privacy/" data-astro-cid-4vpb33up>Read our privacy policy</a></div><div class="analytics-actions" data-astro-cid-4vpb33up><button type="button" data-analytics-choice="accepted" data-astro-cid-4vpb33up>ACCEPT</button><button type="button" data-analytics-choice="rejected" data-astro-cid-4vpb33up>DECLINE</button><button type="button" data-analytics-close hidden data-astro-cid-4vpb33up>Close</button></div></section><p data-accepted-message="Analytics accepted." data-rejected-message="Analytics rejected." data-saved-message="You can change this in Privacy Choices." data-storage-unavailable-message="Browser storage is unavailable; this choice applies to this page only." class="analytics-status" role="status" aria-live="polite" data-analytics-status data-astro-cid-4vpb33up></p><script type="module">var e=`website:analytics-consent`;function t(t,n=Date.now(),r=e){try{let e=JSON.parse(t.getItem(r));return e?.version!==1||![`accepted`,`rejected`].includes(e.choice)||!Number.isFinite(e.at)||e.at>n||n-e.at>=15552e6?null:e.choice}catch{return null}}function n(e,t){let n=t.split(`.`).map((e,t,n)=>n.slice(t).join(`.`));for(let t of e.cookie.split(`;`)){let r=t.split(`=`)[0].trim();if(!/^_ga(?:_|$)/.test(r)&&r!==`_gid`&&!/^_gat(?:_|$)/.test(r))continue;let i=`${r}=; Max-Age=0; Path=/; SameSite=Lax`;e.cookie=i;for(let t of n)e.cookie=`${i}; Domain=${t}`}}function r({window:r,document:i,measurementId:a,storage:o,now:s=Date.now,consentKey:c=e}){let l=/^G-[A-Z0-9]+$/.test(a??``)?a:null,u=t(o,s(),c),d=!1,f=()=>{l&&(r[`ga-disable-${l}`]=!0),n(i,r.location.hostname)},p=()=>{if(!l||d||u!==`accepted`)return;d=!0,r[`ga-disable-${l}`]=!1,r.dataLayer=r.dataLayer||[],r.gtag=function(){r.dataLayer.push(arguments)},r.gtag(`consent`,`default`,{analytics_storage:`denied`,ad_storage:`denied`,ad_user_data:`denied`,ad_personalization:`denied`}),r.gtag(`set`,`ads_data_redaction`,!0),r.gtag(`consent`,`update`,{analytics_storage:`granted`}),r.gtag(`js`,new Date(s())),r.gtag(`config`,l,{allow_google_signals:!1,allow_ad_personalization_signals:!1,cookie_expires:15552e3,cookie_update:!1,page_location:r.location.origin+r.location.pathname,page_referrer:i.referrer?.split(/[?#]/)[0]??``});let e=i.createElement(`script`);e.async=!0,e.src=`https://www.googletagmanager.com/gtag/js?id=${l}`,i.head.append(e)};return u===`accepted`?p():f(),{get choice(){return u},choose(e){if(![`accepted`,`rejected`].includes(e))return!1;u=e;let t=!1;try{o.setItem(c,JSON.stringify({version:1,choice:u,at:s()})),t=!0}catch{}return u===`accepted`?p():(f(),d&&r.location.reload()),t},sync(){let e=t(o,s(),c);e!==u&&(u=e,u===`accepted`?p():(f(),d&&r.location.reload()))}}}var i=document.querySelector(`[data-analytics-consent]`);if(i){let e;try{e=window.localStorage}catch{}let t=r({window,document,storage:e,consentKey:i.dataset.consentKey,measurementId:i.dataset.measurementId}),n=document.querySelector(`[data-analytics-status]`),a=i.querySelector(`[data-analytics-close]`),o=null,s=(e=!1)=>{i.hidden=!1,a&&(a.hidden=!t.choice),e&&i.querySelector(`[data-analytics-choice]`)?.focus({preventScroll:!0})},c=()=>{i.hidden=!0,(o??document.querySelector(`[data-open-privacy-choices]`))?.focus({preventScroll:!0})};t.choice||s(),document.querySelectorAll(`[data-open-privacy-choices]`).forEach(e=>{e.hidden=!1,e.addEventListener(`click`,()=>{o=e,s(!0)})}),i.querySelectorAll(`[data-analytics-choice]`).forEach(e=>{e.addEventListener(`click`,()=>{let r=e.dataset.analyticsChoice===`accepted`,i=t.choose(r?`accepted`:`rejected`);c(),n&&(n.textContent=`${r?n.dataset.acceptedMessage:n.dataset.rejectedMessage} ${i?n.dataset.savedMessage:n.dataset.storageUnavailableMessage}`)})}),a?.addEventListener(`click`,c),i.addEventListener(`keydown`,e=>{e.key===`Escape`&&t.choice&&c()}),window.addEventListener(`storage`,e=>{(e.key===(i.dataset.consentKey??`website:analytics-consent`)||e.key===null)&&(t.sync(),t.choice?i.hidden=!0:s())}),window.addEventListener(`pageshow`,()=>t.sync())}</script><dialog data-search-copy="{&quot;idle&quot;:&quot;Enter a word or phrase to begin.&quot;,&quot;loading&quot;:&quot;Searching…&quot;,&quot;empty&quot;:&quot;No results. Try another word or a shorter phrase.&quot;,&quot;failed&quot;:&quot;Search could not load. Type again to retry.&quot;,&quot;single&quot;:&quot;{count} result.&quot;,&quot;plural&quot;:&quot;{count} results.&quot;,&quot;limited&quot;:&quot;Showing the first 20 results.&quot;}" class="site-search" aria-labelledby="search-title" data-astro-cid-7yy3665x><div class="search-topline" data-astro-cid-7yy3665x><h2 id="search-title" data-astro-cid-7yy3665x>Search inepistemic</h2><button type="button" class="search-close" aria-label="Close search" data-astro-cid-7yy3665x>×</button></div><form role="search" class="search-form" data-astro-cid-7yy3665x><label for="site-search-input" data-astro-cid-7yy3665x>Search the book, insights, guides, and maps</label><input id="site-search-input" type="search" name="q" placeholder="Search a concept or passage…" autocomplete="off" spellcheck="false" maxlength="200" data-astro-cid-7yy3665x></form><p class="search-status" role="status" aria-live="polite" data-astro-cid-7yy3665x>Enter a word or phrase to begin.</p><ol class="search-results" aria-label="Search results" data-astro-cid-7yy3665x></ol></dialog><script type="module">var e=e=>e.normalize(`NFKD`).replace(/[\u0300-\u036f]/g,``).toLowerCase();function t(t,n,r=20){let i=[...new Set(e(n).match(/[\p{L}\p{N}]+/gu)??[])];if(!i.length)return[];let a=i.map(e=>RegExp(`(^|[^\\p{L}\\p{N}])${e}`,`u`));return t.flatMap(t=>{let n=e(t.title),r=e(t.section),i=e(t.text),o=`${n} ${r} ${i}`;if(!a.every(e=>e.test(o)))return[];let s=a.reduce((e,t)=>e+(t.test(n)?12:0)+(t.test(r)?8:0)+ +!!t.test(i),0),c=Math.max(0,i.search(a.find(e=>e.test(i))??/./)),l=Math.max(0,c-65);l&&=t.text.indexOf(` `,l)+1||l;let u=Math.min(t.text.length,l+230);u<t.text.length&&(u=t.text.lastIndexOf(` `,u)>l?t.text.lastIndexOf(` `,u):u);let d=`${l?`…`:``}${t.text.slice(l,u).trim()}${t.text.length>u?`…`:``}`;return[{...t,score:s,excerpt:d}]}).sort((e,t)=>t.score-e.score||e.title.localeCompare(t.title)).slice(0,r)}var n=document.querySelector(`.site-search`),r=JSON.parse(n.dataset.searchCopy),i=n.querySelector(`input`),a=n.querySelector(`.search-status`),o=n.querySelector(`.search-results`),s,c=0,l,u,d=``,f=()=>s??=fetch(`/search-index.json`,{cache:`no-cache`}).then(e=>{if(!e.ok)throw Error(`Search unavailable`);return e.json()}).catch(e=>{throw s=void 0,e});async function p(){let e=++c,s=i.value.trim();if(o.replaceChildren(),!s){a.textContent=r.idle;return}a.textContent=r.loading;try{let i=await f();if(e!==c||!n.open)return;let l=t(i,s,21);a.textContent=l.length>20?r.limited:l.length?(l.length===1?r.single:r.plural).replace(`{count}`,String(l.length)):r.empty;for(let e of l.slice(0,20)){let t=document.createElement(`li`),n=document.createElement(`a`),r=document.createElement(`span`);r.className=`search-result-category`,r.textContent=e.category;let i=document.createElement(`strong`);i.textContent=e.section?`${e.title} · ${e.section}`:e.title;let a=document.createElement(`p`);a.textContent=e.excerpt,n.href=e.href,n.append(r,i,a),t.append(n),o.append(t)}}catch{e===c&&(a.textContent=r.failed)}}function m(e){n.open||(u=void 0,l=e??document.activeElement,d=document.body.style.overflow,document.body.style.overflow=`hidden`,n.showModal(),i.focus(),p())}document.querySelectorAll(`[data-open-search]`).forEach(e=>e.addEventListener(`click`,()=>m(e))),o.addEventListener(`click`,e=>{if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;let t=e.target.closest(`a[href]`);if(!t)return;let r=new URL(t.href,window.location.href);if(r.origin===window.location.origin&&r.pathname===window.location.pathname&&r.search===window.location.search){let e=r.hash.slice(1);try{e=decodeURIComponent(e)}catch{}u=document.getElementById(e)??document.querySelector(`main`)??void 0}l=void 0,document.body.style.overflow=d,n.close()}),n.querySelector(`.search-close`).addEventListener(`click`,()=>n.close()),n.addEventListener(`keydown`,e=>{e.key===`Escape`&&(e.preventDefault(),n.close())}),n.addEventListener(`click`,e=>{if(e.target===n){let t=n.getBoundingClientRect(),r=e;(r.clientX<t.left||r.clientX>t.right||r.clientY<t.top||r.clientY>t.bottom)&&n.close()}}),n.addEventListener(`close`,()=>{if(++c,document.body.style.overflow=d,u){let e=u;e.hasAttribute(`tabindex`)||(e.setAttribute(`tabindex`,`-1`),e.addEventListener(`blur`,()=>e.removeAttribute(`tabindex`),{once:!0})),e.focus({preventScroll:!0})}else l?.focus()}),i.addEventListener(`input`,p),n.querySelector(`form`).addEventListener(`submit`,e=>{e.preventDefault(),p()}),document.addEventListener(`keydown`,e=>{(e.metaKey||e.ctrlKey)&&e.key.toLowerCase()===`k`&&!document.querySelector(`dialog[open]`)&&(e.preventDefault(),m())});</script><dialog data-enlarge-label="Enlarge {title}" data-default-image="image" class="image-viewer" aria-label="Enlarged image"><button class="image-viewer-close" type="button" aria-label="Close image viewer">×</button><figure><img alt=""><figcaption></figcaption></figure></dialog><script type="module">var e=document.querySelector(`.primary-nav-disclosure`),t=e?.querySelector(`summary`);e&&t&&(e.addEventListener(`toggle`,()=>t.setAttribute(`aria-expanded`,String(e.open))),e.addEventListener(`keydown`,n=>{n.key===`Escape`&&e.open&&(e.open=!1,t.focus())}));var n=document.querySelector(`.image-viewer`),r=n?.querySelector(`figure img`),i=n?.querySelector(`figcaption`),a=n?.querySelector(`.image-viewer-close`),o,s;if(n&&r&&i&&a){let e=document.querySelectorAll(`main img`);for(let t of e)t.closest(`a[href^="mailto:"]`)||(t.classList.add(`zoomable-image`),t.closest(`button, a`)||(t.tabIndex=0,t.setAttribute(`role`,`button`),t.setAttribute(`aria-label`,n.dataset.enlargeLabel.replace(`{title}`,t.alt||n.dataset.defaultImage))));let t=(e,t)=>{e?.getAttribute(`src`)&&(o=t,r.src=e.src,r.srcset=e.srcset,r.sizes=`95vw`,r.alt=e.alt||``,i.textContent=e.alt||``,i.hidden=!e.alt,s=document.body.style.overflow,document.body.style.overflow=`hidden`,n.showModal(),a.focus())};document.addEventListener(`click`,e=>{if(!(e.target instanceof Element))return;let n=e.target.closest(`main [data-image-viewer-trigger]`),r=e.target.closest(`main img.zoomable-image`)||n?.querySelector(`img.zoomable-image`);r&&(e.preventDefault(),t(r,r.closest(`button, a`)||r))}),document.addEventListener(`keydown`,e=>{if(!(e.target instanceof Element))return;let n=e.target.closest(`main img.zoomable-image[role="button"]`);n&&(e.key===`Enter`||e.key===` `)&&(e.preventDefault(),t(n,n))}),a.addEventListener(`click`,()=>n.close()),n.addEventListener(`click`,e=>{e.target===n&&n.close()}),n.addEventListener(`close`,()=>{document.body.style.overflow=s||``,o?.focus(),r.removeAttribute(`src`),r.removeAttribute(`srcset`)});let c=()=>{let e=location.hash.slice(1);if(!e.startsWith(`infographic-`)||n.open)return;let r=document.getElementById(e)?.querySelector(`[data-image-viewer-trigger]`),i=r?.querySelector(`img`);i&&t(i,r)};window.addEventListener(`hashchange`,c),c()}</script></body></html>

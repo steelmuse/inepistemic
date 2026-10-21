@@ -1,0 +1,30 @@
+{
+  "title": "inepistemic",
+  "publication": {
+    "version": "0.1",
+    "publicationDate": "2026-10-17"
+  },
+  "downloads": {
+    "pdf": {
+      "href": "/downloads/inepistemic.pdf",
+      "bytes": 23400421,
+      "sha256": "6404800ae95e4185fb521d96d1113e6a91b31f65cc32cfb648a384cc4cc1ebbd",
+      "version": "0.1",
+      "publicationDate": "2026-10-17"
+    },
+    "epub": {
+      "href": "/downloads/inepistemic.epub",
+      "bytes": 24393605,
+      "sha256": "7b3d4de9fe8fc46d3d73e2ebada1373b19e4e0ea1206af906e1f907612cb95f8",
+      "version": "0.1",
+      "publicationDate": "2026-10-17"
+    },
+    "md": {
+      "href": "/downloads/inepistemic.md",
+      "bytes": 1209604,
+      "sha256": "59e4e36d3092221b80f2645d0a02359407db7c38fb61a61621f81f94faf3c893",
+      "version": "0.1",
+      "publicationDate": "2026-10-17"
+    }
+  }
+}
